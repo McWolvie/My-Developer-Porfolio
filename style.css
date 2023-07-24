@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 :root {
-    --primary-dark: #fffdff;
-    --bg-dark: url(/Img/BackGround-StarWars.jpg);
+    --primary-dark: #ffeeff;
+    --bg-dark: #1f1f1f;
     --primary-light: #1d1e1f;
-    --bg-light: url(/Img/BackGround-White.jpg);
-    --highlight: #6cace4;
-    --divider: rgb(164, 164, 164);
+    --bg-light: #f1f1f1;
+    --highlight:#36c62c;
+    --divider: #f39818;
   }
 
   *{
@@ -30,14 +30,14 @@
   }
   
   body {
-    background-color: var(--bg-dark);
     color: var(--primary-dark);
-    transition: al 0.5s ease-in-out;
+    transition: al 0.3s ease-in-out;
+    background-color: var(--bg-dark);
   }
   
   .light {
-    background-color: var(--bg-light);
     color: var(--primary-light);
+    background-color: var(--bg-light);
   }
   
   main {
@@ -46,4 +46,5 @@
   
   a, p {
   font-size: 1.1rem;
+  font-weight: bold;
   }

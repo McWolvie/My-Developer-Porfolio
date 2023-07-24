@@ -1,0 +1,20 @@
+.home {
+  padding: 0 8rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+@media (max-width: 700px) {
+  .home {
+    padding: 0 2rem;
+  }
+}
+
+.home > p > a {
+  font-size: 1.5rem;
+  color: #0da5f0;
+}
