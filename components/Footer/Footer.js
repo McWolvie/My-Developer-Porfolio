@@ -5,5 +5,6 @@ export const Footer = () => `
 ${Button("/icons/twitter.png", "Twitter")}
 ${Button("/icons/github.png", "GitHub")}
 ${Button("/icons/linkedin.png", "LinkedIn")}
+${Button("/icons/instagram.png", "Instagram")}
 </div>
 `;
