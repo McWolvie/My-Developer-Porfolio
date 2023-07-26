@@ -5,8 +5,10 @@ nav {
   font-size: 1.5em;
   align-items: center;
   padding: 0 8rem;
+  background-color: rgb(85, 86, 87);
+  box-shadow: 0 5px 5px rgb(124, 15, 240);
   flex-wrap: wrap;
-  color: #0da5f0;
+  color: #fb8500;
 }
 
 @media (max-width: 770px) {

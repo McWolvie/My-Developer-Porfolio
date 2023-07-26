@@ -13,7 +13,7 @@ const footer = document.querySelector("footer");
 footer.innerHTML = Footer();
 linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
-linkPage("#")
+linkPage("#skillslink", Skills);
 Home();
 changeTheme();
 footer.insertAdjacentHTML("beforebegin", Divider());

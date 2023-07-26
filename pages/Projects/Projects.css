@@ -17,9 +17,10 @@
 .projects > h2 {
   font-weight: bolt;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5em;
   font-family: "Kalam", Arial, Helvetica, sans-serif;
   color: #ff5d00;
+  padding: 20px;
 
 }
 

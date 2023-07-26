@@ -11,6 +11,6 @@ At present the force has been revealed to me.<br> I am studying an intensive cou
 I'm a middle-aged Padawan who loves comics, series, Star Wars movies, Marvel, DC, Dragon Ball...<br>
 With time and with the help of my teachers, I will become a master web developer.<br></p>
 <h3>May the force be with you, always!!</h3>
-<a href="mailto:ironman.74@hotmail.com"><em>Hello There‼ ⇒</em> </a>
+<a href="mailto:ironman.74@hotmail.com"><em> Hello There‼ </em> </a>
 </section>`;
 };

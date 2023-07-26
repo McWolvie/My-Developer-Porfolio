@@ -18,17 +18,18 @@ export const changeText = () => {
 
 export const Navbar = () => `
 <nav>
-<h2>Oscar C.R <span>‹McWolvie›</span></h2>
+<h2>Oscar C.R ‹McWolvie›</h2>
 <ul>
 <li>
 <a href="#" id="homelink">Home</a>
 </li>
 <li>
-<a href="#" id="projectslink">My projects</a>
+<a href="#" id="projectslink">My Projects</a>
 </li>
 <li>
 <a href="#" id="skillslink">Skills</a>
 </li>
+
 <li>
 <button id="themeBtn">🌞</button>
 </li>

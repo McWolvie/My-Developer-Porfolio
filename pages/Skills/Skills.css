@@ -4,34 +4,46 @@
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 30px;
+  margin: 10px;
 }
 
 @media (max-width: 770px) {
-  .projects {
+  .skills {
     padding: 0 2rem;
   }
 }
 
-.skills > h2 {
+.skill-header {
   font-weight: bolt;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5em;
   font-family: "Kalam", Arial, Helvetica, sans-serif;
   color: #ff5d00;
+  padding: 20px;
 }
 
-.skills-container {
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills-wrapper img {
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px var(--shadow);
+  gap: 20px;
+}
+
+.skills > .icon-card {
   display: grid;
+  margin: 10px;
+  padding: 10px;
   image-resolution: 100%;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 8rem;
+  gap: 30px;
   transform: none;
-  transition: all Os ease Os;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  box-sizing: border-box;
 }
 
 @media (max-width: 770px) {

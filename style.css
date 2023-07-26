@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 :root {
     --primary-dark: #ffeeff;
@@ -9,6 +8,8 @@
     --bg-light: #f6f9f9;
     --highlight:#36c62c;
     --divider: #f39818;
+    --transition: 0.3s;
+    --shadow:rgb(124, 15, 240);
   }
 
   *{

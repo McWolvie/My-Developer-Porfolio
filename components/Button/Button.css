@@ -1,16 +1,16 @@
 .my-btn {
   background: none;
-  border: 1px solid var(--divider);
+  border: 2px solid var(--divider);
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--primary-dark);
-  width: 9rem;
+  width: 7rem;
   padding: 0.5rem;
   gap: 0.5rem;
   border-radius: 1rem;
   transition: all 0.3s ease-in-out;
-  background-color: rgb(195, 84, 84);
+  background-color: #fb8500;
 }
 
 .my-btn > img {
