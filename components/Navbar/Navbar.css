@@ -1,14 +1,21 @@
 nav {
-  height: 10vh;
+  height: 15vh;
   display: flex;
   justify-content: space-between;
+  text-align: justify;
   font-size: 1.5em;
   align-items: center;
   padding: 0 8rem;
-  background-color: rgb(85, 86, 87);
-  box-shadow: 0 5px 5px rgb(124, 15, 240);
+  color: var(--letter-color);
+  background-color: #748cab;
   flex-wrap: wrap;
-  color: #fb8500;
+  width: 100%;
+  margin: 1 rem 0;
+}
+
+nav > h2 > span {
+  font-family: "Kalam", Arial, Helvetica, sans-serif;
+  color: var(--username);
 }
 
 @media (max-width: 770px) {
@@ -19,7 +26,9 @@ nav {
 
 nav > ul {
   display: flex;
-  gap: 3rem;
+  gap: 60px;
+  padding: 20px;
+  font-size: 32px;
 }
 
 nav button {
@@ -30,9 +39,45 @@ nav button {
 }
 
 nav a {
-  transition: all 0.3s ease-in-out;
-}
-
-nav a:hover {
-  color: var(--highlight);
+  cursor: pointer;
+  position: relative;
+  padding: 6px;
+  background: var(--primary-dark);
+  font-size: 16px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: all 1s;
+  &:after,
+  &:before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border: 0px solid var(--primary-dark);
+    transition: all 1s;
+  }
+  &:after {
+    top: -1px;
+    left: -1px;
+    border-top: 3px solid var(--letter-color);
+    border-left: 3px solid var(--letter-color);
+  }
+  &:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 3px solid var(--letter-color);
+    border-right: 3px solid var(--letter-color);
+  }
+  &:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: var(--highlight);
+    color: var(--bg-dark);
+    &:before,
+    &:after {
+      width: 100%;
+      height: 100%;
+      border-color: var(--letter-color);
+    }
+  }
 }

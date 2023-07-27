@@ -8,8 +8,8 @@
   margin-bottom: 2rem;
 }
 
-@media (max-width: 770px) {
-  .projects {
+@media only screen and (max-width: 600px) {
+  nav {
     padding: 0 2rem;
   }
 }
@@ -21,7 +21,6 @@
   font-family: "Kalam", Arial, Helvetica, sans-serif;
   color: #ff5d00;
   padding: 20px;
-
 }
 
 .projects-container {
@@ -34,10 +33,9 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   box-sizing: border-box;
-
 }
 
-@media (max-width: 770px) {
+@media (max-width: 600px) {
   .projects-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
