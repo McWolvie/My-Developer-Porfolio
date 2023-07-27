@@ -4,8 +4,7 @@
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  margin: 10px;
+  gap: 1rem;
 }
 
 @media (max-width: 770px) {
@@ -23,16 +22,16 @@
   padding: 20px;
 }
 
-.skills-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skills-wrapper img {
   padding: 2px;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--shadow);
+  box-shadow: 4px 6px 4px var(--shadow);
   gap: 20px;
 }
 

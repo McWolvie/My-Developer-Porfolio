@@ -5,11 +5,10 @@
   justify-content: center;
   align-items: center;
   color: var(--primary-dark);
-  width: 7rem;
-  padding: 0.3rem;
-  gap: 0.5rem;
-  border-radius: 1em;
-  transition: all 0.2s ease-in-out;
+  width: 4rem;
+  padding: 0 20px;
+  gap: 0.2rem;
+  border-radius: 1.5em;
   background-color: #748cab;
 }
 
@@ -20,15 +19,11 @@
 }
 
 .my-btn img {
-  height: 20px;
-  width: 20px;
+  height: 1.2em;
+  width: 1.2em;
 }
 
 .my-btn:hover {
-  background-color: var(--highlight);
-  letter-spacing: 1px;
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
-  transition: all 0.2s ease 0s;
+  transform: rotateY(360deg);
+  transition: all 0.1s ease-in-out;
 }

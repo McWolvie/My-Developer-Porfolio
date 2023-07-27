@@ -1,14 +1,14 @@
 footer {
+  height: 15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 8rem;
-  gap: 4rem;
+  padding: 0 20px;
   flex-wrap: wrap;
-  margin: 1.5rem 0;
+  margin: 1 rem 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   footer {
     padding: 0 2rem;
     gap: 2rem;
@@ -18,10 +18,11 @@ footer {
 footer > div {
   display: flex;
   gap: 1rem;
+  padding: 10px;
   flex-wrap: wrap;
 }
 
 footer > p > em {
-  color: var(--username);
+  color: var(--divider);
   font-family: "kalam", Arial, Helvetica, sans-serif;
 }

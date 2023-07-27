@@ -22,39 +22,43 @@ const template = () => `
         src="/public/icons/React.png"
         alt="React"
         class="icon-card"
-      />
-      <img
-      src="/public/icons/Git.png"
-      alt="Git"
-      class="icon-card"
-    />
-    <img
-    src="/public/icons/GithubTwo.png"
-    alt="Github"
-    class="icon-card"
-  />
-  <img
-  src="/public/icons/Node.png"
-  alt="Node"
-  class="icon-card"
-/>
-<img
-src="/public/icons/Davinci-resolve.png"
-alt="Davinci"
-class="icon-card"
-/>
-<img
-src="/public/icons/SusaSchool.png"
-alt="SusaSchool"
-class="icon-card"
-/>
+          />
+        <img
+        src="/public/icons/Git.png"
+        alt="Git"
+        class="icon-card"
+        />
+        <img
+        src="/public/icons/GithubTwo.png"
+        alt="Github"
+        class="icon-card"
+        />
+        <img
+        src="/public/icons/Node.png"
+        alt="Node"
+        class="icon-card"
+        />
+        <img
+        src="/public/icons/Davinci-resolve.png"
+        alt="Davinci"
+        class="icon-card"
+        />
+        <img
+        src="/public/icons/SusaSchool.png"
+        alt="SusaSchool"
+        class="icon-card"
+        />
+        <img
+        src="/public/icons/Canva.png"
+        alt="Canva"
+        class="icon-card"
+        />
+
 
     </div>
   </section>
     `;
-  
-  export const Skills = () => {
-    document.querySelector("main").innerHTML = template();
-  };
-  
-  
+
+export const Skills = () => {
+  document.querySelector("main").innerHTML = template();
+};

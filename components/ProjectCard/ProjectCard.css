@@ -9,6 +9,8 @@
   width: 100%;
   height: 250px;
   border-radius: 0.6rem;
+  image-resolution: 100%;
+
   object-fit: cover;
 }
 
