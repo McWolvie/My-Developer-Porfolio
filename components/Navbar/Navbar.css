@@ -12,7 +12,7 @@ nav {
 
 nav > h2 > span {
   font-family: "Kalam", Arial, Helvetica, sans-serif;
-  color: var(--username);
+  color: var(--divider);
 }
 
 @media (max-width: 770px) {

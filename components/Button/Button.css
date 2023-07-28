@@ -4,10 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
   color: var(--primary-dark);
-  width: 4rem;
-  padding: 0 20px;
+  width: 5rem;
+  padding: 3px 50px;
   gap: 0.2rem;
+  margin: auto;
   border-radius: 1.5em;
   background-color: #748cab;
 }
@@ -24,6 +26,6 @@
 }
 
 .my-btn:hover {
-  transform: rotateY(360deg);
-  transition: all 0.1s ease-in-out;
+  transform: rotateX(360deg);
+  transition: all 0.1s;
 }
