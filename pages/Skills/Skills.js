@@ -4,10 +4,20 @@ const template = () => `
     <h2 class="skill-header">My Top Skills</h2>
     <div class="skills-wrapper">
         <img
-          src="/public/icons/Html5.png"
+          src="/public/icons/office.jpg"
           alt="HTML5"
           class="icon-card"
         />
+        <img
+        src="/public/icons/google-docs.jpg"
+        alt="HTML5"
+        class="icon-card"
+      />
+      <img
+      src="/public/icons/Html5.png"
+      alt="HTML5"
+      class="icon-card"
+    />
         <img
           src="/public/icons/Css3.png"
           alt="CSS3"
@@ -29,7 +39,7 @@ const template = () => `
         class="icon-card"
         />
         <img
-        src="/public/icons/GithubTwo.png"
+        src="/public/icons/mongo-DB.png"
         alt="Github"
         class="icon-card"
         />
@@ -44,7 +54,7 @@ const template = () => `
         class="icon-card"
         />
         <img
-        src="/public/icons/SusaSchool.png"
+        src="/public/icons/Vite.png"
         alt="SusaSchool"
         class="icon-card"
         />
@@ -53,6 +63,18 @@ const template = () => `
         alt="Canva"
         class="icon-card"
         />
+        <img
+        src="/public/icons/autocad.jpg"
+        alt="Canva"
+        class="icon-card"
+        />
+        <img
+        src="/public/icons/coreldraw.png"
+        alt="Canva"
+        class="icon-card"
+        />
+
+
 
 
     </div>
