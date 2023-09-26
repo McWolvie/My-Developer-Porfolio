@@ -4,27 +4,27 @@ const template = () => `
     <h2 class="skill-header">My Top Skills</h2>
     <div class="skills-wrapper">
         <img
-          src="/public/icons/office.jpg"
+          src="/icons/office.jpg"
           alt="HTML5"
           class="icon-card"
         />
         <img
-        src="/public/icons/google-docs.jpg"
+        src="/icons/google-docs.jpg"
         alt="HTML5"
         class="icon-card"
       />
       <img
-      src="/public/icons/Html5.png"
+      src="/icons/Html5.png"
       alt="HTML5"
       class="icon-card"
     />
         <img
-          src="/public/icons/Css3.png"
+          src="/icons/Css3.png"
           alt="CSS3"
           class="icon-card"
         />
         <img
-          src="/public/icons/Js.png"
+          src="/icons/Js.png"
           alt="JavaScript"
           class="icon-card"
         />
@@ -34,42 +34,42 @@ const template = () => `
         class="icon-card"
           />
         <img
-        src="/public/icons/Git.png"
+        src="/icons/Git.png"
         alt="Git"
         class="icon-card"
         />
         <img
-        src="/public/icons/mongo-DB.png"
+        src="/icons/mongo-DB.png"
         alt="Github"
         class="icon-card"
         />
         <img
-        src="/public/icons/Node.png"
+        src="/icons/Node.png"
         alt="Node"
         class="icon-card"
         />
         <img
-        src="/public/icons/Davinci-resolve.png"
+        src="/icons/Davinci-resolve.png"
         alt="Davinci"
         class="icon-card"
         />
         <img
-        src="/public/icons/Vite.png"
+        src="/icons/Vite.png"
         alt="SusaSchool"
         class="icon-card"
         />
         <img
-        src="/public/icons/Canva.png"
+        src="/icons/Canva.png"
         alt="Canva"
         class="icon-card"
         />
         <img
-        src="/public/icons/autocad.jpg"
+        src="/icons/autocad.jpg"
         alt="Canva"
         class="icon-card"
         />
         <img
-        src="/public/icons/coreldraw.png"
+        src="/icons/coreldraw.png"
         alt="Canva"
         class="icon-card"
         />
