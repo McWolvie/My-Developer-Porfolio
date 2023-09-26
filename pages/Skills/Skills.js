@@ -73,10 +73,6 @@ const template = () => `
         alt="Canva"
         class="icon-card"
         />
-
-
-
-
     </div>
   </section>
     `;
