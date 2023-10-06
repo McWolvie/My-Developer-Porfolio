@@ -20,6 +20,8 @@
 }
 
 .home > h2 {
+  justify-content: center;
+  align-items: center;
   font-family: "Kalam", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
 }
@@ -29,13 +31,13 @@
   font-size: 1em;
 }
 
-.home > h3 {
-  font-family: "Kalam", Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  padding: 30px;
+a {
+  text-decoration: none;
+  color: deepskyblue;
 }
 
-.home > a {
+.mail {
+  display: flex;
   cursor: pointer;
   position: relative;
   padding: 6px;
@@ -67,7 +69,7 @@
   &:hover {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
-    background: var(--highlight);
+    background: b;
     color: var(--bg-dark);
     &:before,
     &:after {
