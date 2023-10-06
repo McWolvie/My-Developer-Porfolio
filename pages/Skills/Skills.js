@@ -5,12 +5,12 @@ const template = () => `
     <div class="skills-wrapper">
         <img
           src="Icons/office.jpg"
-          alt="HTML5"
+          alt="Office"
           class="icon-card"
         />
         <img
         src="Icons/google-docs.jpg"
-        alt="HTML5"
+        alt="Google-docs"
         class="icon-card"
         />
         <img
@@ -40,7 +40,7 @@ const template = () => `
         />
         <img
         src="Icons/mongo-DB.png"
-        alt="Github"
+        alt="Mongodb"
         class="icon-card"
         />
         <img
@@ -55,7 +55,7 @@ const template = () => `
         />
         <img
         src="Icons/Vite.png"
-        alt="SusaSchool"
+        alt="Vite"
         class="icon-card"
         />
         <img
@@ -64,7 +64,7 @@ const template = () => `
         class="icon-card"
         />
         <img
-        src="/icons/Blender.png"
+        src="/Icons/Blender.png"
         alt="Blender"
         class="icon-card"
         />
