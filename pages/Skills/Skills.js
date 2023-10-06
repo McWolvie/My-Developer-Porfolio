@@ -64,18 +64,10 @@ const template = () => `
         class="icon-card"
         />
         <img
-        src="/icons/autocad.jpg"
+        src="/icons/Blender.jpg"
         alt="Canva"
         class="icon-card"
         />
-        <img
-        src="/icons/coreldraw.png"
-        alt="Canva"
-        class="icon-card"
-        />
-
-
-
 
     </div>
   </section>
